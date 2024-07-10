@@ -32,17 +32,19 @@ To run the code in this repository, you need the following libraries installed:
 You can install these libraries using pip:
 ```bash
 pip install numpy pandas scikit-learn matplotlib
+```
 
 # Training
 To train the disease prediction model, run the provided Python script:
 
 ```bash
 python Disease_Prediction_Code_for_model_training.py
+```
 This script will:
-Load the training and testing datasets.
-Preprocess the data (e.g., handle missing values, drop unnecessary columns).
-Train a machine learning model on the training data.
-Evaluate the model on the testing data.
+-Load the training and testing datasets.
+-Preprocess the data (e.g., handle missing values, drop unnecessary columns).
+-Train a machine learning model on the training data.
+-Evaluate the model on the testing data.
 
 # Evaluation
 The script evaluates the model using standard metrics and prints the results. You can modify the script to include additional evaluation metrics or techniques as needed.
